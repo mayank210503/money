@@ -1,0 +1,63 @@
+{
+	"accountCategories": [
+		{ "id": "assets", "name": "Assets", "type": "asset" },
+		{
+			"id": "liabilities",
+			"name": "Liabilities",
+			"type": "asset"
+		},
+		{
+			"id": "budgets",
+			"name": "Budgets",
+			"type": "budget"
+		}
+	],
+  "accounts": [
+    {
+      "balance": "0",
+      "id": "none",
+      "name": "None",
+      "transactionIds": [],
+      "type": "none"
+    },
+    {
+      "balance": "0",
+      "category": "assets",
+      "id": "cash",
+      "name": "Cash",
+      "transactionIds": [],
+      "type": "asset"
+    },
+    {
+      "balance": "0",
+      "category": "assets",
+      "id": "bank",
+      "name": "Bank",
+      "transactionIds": [],
+      "type": "asset"
+    },
+    {
+      "balance": "0",
+      "category": "liabilities",
+      "id": "creditCard",
+      "name": "Credit Card",
+      "transactionIds": [],
+			"type": "asset",
+			"importTransactionsFormatId": "capitalOne"
+    },
+    {
+      "balance": "0",
+      "category": "budgets",
+      "id": "toSpend",
+      "name": "To Spend",
+      "transactionIds": [],
+      "type": "budget"
+    }
+  ],
+  "transactions": {},
+  "summary": {
+    "balance": "0"
+  },
+  "bulkTransactions": [],
+  "bulkTransactionTransactions": {}
+}
